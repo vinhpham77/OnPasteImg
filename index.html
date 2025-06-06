@@ -81,7 +81,7 @@
                 if (item.type.indexOf("image") === 0) {
                     const file = item.getAsFile();
                     const imageUrl = URL.createObjectURL(file);
-                    preview.src = imageUri;
+                    preview.src = imageUrl;
                     frame.classList.add("has-image");
                 }
             }
